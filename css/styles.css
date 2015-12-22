@@ -1,0 +1,45 @@
+#landing .image1 {
+  background-image: url("../images/slider1.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); }
+#landing .image2 {
+  background-image: url("../images/slider2.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); }
+#landing .image3 {
+  background-image: url("../images/slider3.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); }
+#landing .front {
+  color: #fff;
+  position: relative;
+  top: -40em; }
+  #landing .front img {
+    border-color: #fff; }
+  #landing .front h2, #landing .front h3 {
+    font-family: 'Pacifico', cursive; }
+  #landing .front h2 {
+    font-size: 4em; }
+  #landing .front h1 {
+    font-size: 6em; }
+  #landing .front span {
+    font-weight: bolder; }
+  #landing .front h3 {
+    font-size: 2em;
+    margin-bottom: 1em; }
+  #landing .front .btn-outline {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: bolder;
+    padding: 1em 2em;
+    border: 2px solid #fff; }
+    #landing .front .btn-outline:hover {
+      color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
