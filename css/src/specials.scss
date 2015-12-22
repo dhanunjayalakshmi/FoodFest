@@ -1,0 +1,81 @@
+#specials {
+
+   .desc {
+     padding-top: 4em;
+     h2 {
+       font-size: 3em;
+       color: $secondary-color;
+       font-family: $primary-font;
+     }
+     i{
+       padding-top: 1em;
+       color: darken($primary-pg-color, 20%);
+     }
+     p{
+       color: darken($primary-pg-color,60%);
+       padding: 2em 3em;
+     }
+   }
+   .desc {
+     margin-top: 1em;
+   .image {
+       text-align: center;
+       height: 250px;
+       width: 360px;
+     &.thumbnail {
+       padding: 1px;
+       border: 2px solid #ddd;
+     }
+   }
+   .image1 {
+     background-image: url('../images/slider1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     padding: 1em;
+     &:hover{
+     background-image: url('../images/slider4.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     padding: 1em;
+   }
+   }
+   .image2 {
+     background-image: url('../images/slider2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     padding: 1em;
+     &:hover{
+     background-image: url('../images/slider5.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     padding: 1em;
+   }
+ }
+ .image3 {
+   background-image: url('../images/slider3.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 250px;
+   padding: 1em;
+   &:hover{
+   background-image: url('../images/sp-item1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 250px;
+   padding: 1em;
+ }
+ }
+   h3 {
+     padding: 0 1em;
+     color: darken($primary-pg-color,60%);
+   }
+   p{
+     padding: 0 1em;
+     color: darken($primary-pg-color,60%);
+   }
+ }
+}
