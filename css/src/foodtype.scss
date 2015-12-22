@@ -1,0 +1,46 @@
+#foodtype {
+  margin-top: 4em;
+  background-image: url('../images/our-products-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+
+  .desc {
+    padding-top: 4em;
+    h2 {
+      font-size: 3em;
+      color: $primary-color;
+      font-family: $primary-font;
+    }
+    i{
+      padding-top: 1em;
+      color: $primary-color;
+    }
+    p{
+      color: $primary-color;
+      padding: 1em 3em;
+    }
+  }
+
+  .products {
+    padding-bottom: 5em;
+    .product-type {
+      margin-right: 1em;
+      border: 3px solid $primary-color;
+    }
+    .image {
+        padding: 2em 2em 1em 2em;
+        &:hover {
+          transform: scaleX(-1);
+          transition-duration: 1s;
+        }
+    h3 {
+      color: $primary-color;
+    }
+    p{
+      color: $primary-color;
+    }
+}
+  }
+}
