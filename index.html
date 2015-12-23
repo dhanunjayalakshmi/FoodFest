@@ -5,11 +5,15 @@
     <title>FoodFest</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
@@ -42,7 +46,7 @@
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <h3>Good Food</h3>
-        <div class="btn btn-outline">Book Your Table Now</div>
+        <a href="#booking" class="btn btn-outline">Book Your Table Now</a>
       </div>
 </section>
 <section id="specials">
@@ -447,6 +451,150 @@
     </div>
   </div>
 </div>
+  </div>
+</section>
+<section id="extras">
+  <div class="container text-center">
+    <h2>Food Fest Extra's</h2>
+    <img src="images/extras-heading-bg.png" alt="" class="img-responsive">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2 extra-type">
+        <i class="fa fa-music"></i>
+        <p>Music Zone</p>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2 extra-type">
+        <i class="fa fa-wifi"></i>
+        <p>Wifi Zone</p>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2 extra-type">
+        <i class="fa fa-gamepad"></i>
+        <p>Game Zone</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="booking">
+  <div class="desc text-center">
+    <h2>Book a Table</h2>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+  </div>
+  <div class="container book">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="text" class="form-control text-input" value="Name">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="text" class="form-control text-input" value="Your Email">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="text" class="form-control text-input" value="Address">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="text" class="form-control text-input" value="Mobile Number">
+        </div>
+      </div>
+      <div class="col-sm-4">
+          <input type='text' class="form-control text-input" id='datetimepicker4' />
+          <script type="text/javascript">
+                  $(function () {
+                      $('#datetimepicker4').datetimepicker();
+                  });
+          </script>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <select class="form-control book-list">
+            <option>Breakfast</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+          </select>
+          <!-- <input type="text" class="form-control text-input" value="Book Type"> -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="form-group">
+          <textarea class="form-control text-mesg" rows="8">Message</textarea>
+        </div>
+        <a href="#" class="btn btn-solid">Submit</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="reviewmesg">
+          <div class="text-desc text-center">
+            <img src="images/quote.png" alt="" class="img-responsive"/>
+          </div>
+          <h2>People are Saying</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <h4>Tanya,</h4>
+          <span>
+            Master Chef
+          </span>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="chef text-center">
+          <img src="images/commentor.png" alt="" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="details">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <div class="image text-center">
+          <img src="images/logo.png" alt="" class="img-responsive">
+        </div>
+        <h2>Food Fest</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="image text-center">
+          <img src="images/calender.png" alt="" class="img-responsive">
+        </div>
+        <h2>Working Hours</h2>
+        <p>On weekdays ---- 8am to 10pm</p>
+        <p>On weekends ---- 8am to 11pm</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="image text-center">
+          <img src="images/clock.png" alt="" class="img-responsive">
+        </div>
+        <h2>Upcoming Events</h2>
+      </div>
+    </div>
   </div>
 </section>
   </body>

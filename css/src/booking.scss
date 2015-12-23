@@ -1,0 +1,65 @@
+#booking {
+  margin-top: 4em;
+  .desc {
+    h2 {
+      font-size: 3em;
+      color: $secondary-color;
+      font-family: $primary-font;
+    }
+    i{
+      padding-top: 1em;
+      color: darken($primary-pg-color, 20%);
+    }
+    p{
+      color: darken($primary-pg-color,60%);
+      padding: 1em 3em;
+    }
+  }
+  .book {
+    .text-input {
+      height: 50px;
+      color: $form-text-color;
+      border-radius: 2px;
+      border: 1.5px solid $form-border-color;
+
+      &:hover {
+        border-color: $secondary-color;
+      }
+  }
+  .book-list {
+    height: 50px;
+    color: $form-text-color;
+    border-radius: 2px;
+    border: 1.5px solid $form-border-color;
+
+    &:hover {
+      border-color: $secondary-color;
+    }
+  }
+
+  .text-mesg{
+    color: $form-text-color;
+    border-radius: 2px;
+    border: 1.5px solid $form-border-color;
+
+    &:hover {
+      border-color: $secondary-color;
+    }
+  }
+.btn-solid {
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+  font-size: 1.3em;
+  background-color: $secondary-color;
+  color: $primary-color;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0.6em 2.7em;
+
+  &:hover{
+    color: $primary-color;
+  }
+}
+}
+
+}

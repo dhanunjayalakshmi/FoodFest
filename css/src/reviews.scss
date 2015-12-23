@@ -1,0 +1,58 @@
+#reviews{
+  margin-top: 6em;
+  background-image: url('../images/comment-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+
+  .reviewmesg {
+    margin-top: 7em;
+    height: 28em;
+    background-color: transparentize($secondary-color,0.2);
+
+    img{
+      position: relative;
+      top: 4em;
+      left: 4em;
+    }
+    h2{
+      position: relative;
+      top: 2em;
+      left: 2em;
+      color: $primary-color;
+      font-family: $primary-font;
+      margin-bottom: 1em;
+    }
+    p{
+      position: relative;
+      top: 3em;
+      left: 3em;
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-right: 4em;
+      color: $primary-color;
+      font-family: $secondary-font;
+    }
+
+    h4{
+      position: relative;
+      top: 4em;
+      left: 3em;
+      font-weight: bold;
+      color: $primary-color;
+      margin-bottom: 1em;
+    }
+    span{
+      position: relative;
+      top: 4em;
+      left: 4em;
+      color: $primary-color;
+    }
+  }
+  .chef{
+    img{
+      margin-top: -3em;
+      margin-left: 6em;
+    }
+  }
+}

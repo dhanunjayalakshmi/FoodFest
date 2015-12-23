@@ -231,4 +231,125 @@ body {
       height: 300px;
       width: 360px; }
 
+#extras {
+  padding-top: 4em;
+  background-image: url("../images/extras-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+  #extras h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Raleway", sans-serif; }
+  #extras img {
+    padding-left: 25em;
+    margin-bottom: 2em; }
+  #extras .extra-type {
+    margin-bottom: 2em; }
+    #extras .extra-type i {
+      color: #fff;
+      font-size: 6em; }
+      #extras .extra-type i:hover {
+        color: #F26522; }
+    #extras .extra-type p {
+      margin: 1em 0;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.8em;
+      font-family: "Raleway", sans-serif; }
+      #extras .extra-type p:hover {
+        color: #F26522; }
+
+#booking {
+  margin-top: 4em; }
+  #booking .desc h2 {
+    font-size: 3em;
+    color: #F26522;
+    font-family: "Pacifico", cursive; }
+  #booking .desc i {
+    padding-top: 1em;
+    color: #9db7c5; }
+  #booking .desc p {
+    color: #38515e;
+    padding: 1em 3em; }
+  #booking .book .text-input {
+    height: 50px;
+    color: gray;
+    border-radius: 2px;
+    border: 1.5px solid #ededed; }
+    #booking .book .text-input:hover {
+      border-color: #F26522; }
+  #booking .book .book-list {
+    height: 50px;
+    color: gray;
+    border-radius: 2px;
+    border: 1.5px solid #ededed; }
+    #booking .book .book-list:hover {
+      border-color: #F26522; }
+  #booking .book .text-mesg {
+    color: gray;
+    border-radius: 2px;
+    border: 1.5px solid #ededed; }
+    #booking .book .text-mesg:hover {
+      border-color: #F26522; }
+  #booking .book .btn-solid {
+    margin-top: 2.5em;
+    margin-bottom: 4em;
+    font-size: 1.3em;
+    background-color: #F26522;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 0.6em 2.7em; }
+    #booking .book .btn-solid:hover {
+      color: #fff; }
+
+#reviews {
+  margin-top: 6em;
+  background-image: url("../images/comment-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw; }
+  #reviews .reviewmesg {
+    margin-top: 7em;
+    height: 28em;
+    background-color: rgba(242, 101, 34, 0.8); }
+    #reviews .reviewmesg img {
+      position: relative;
+      top: 4em;
+      left: 4em; }
+    #reviews .reviewmesg h2 {
+      position: relative;
+      top: 2em;
+      left: 2em;
+      color: #fff;
+      font-family: "Pacifico", cursive;
+      margin-bottom: 1em; }
+    #reviews .reviewmesg p {
+      position: relative;
+      top: 3em;
+      left: 3em;
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-right: 4em;
+      color: #fff;
+      font-family: "Raleway", sans-serif; }
+    #reviews .reviewmesg h4 {
+      position: relative;
+      top: 4em;
+      left: 3em;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 1em; }
+    #reviews .reviewmesg span {
+      position: relative;
+      top: 4em;
+      left: 4em;
+      color: #fff; }
+  #reviews .chef img {
+    margin-top: -3em;
+    margin-left: 6em; }
+
 /*# sourceMappingURL=styles.css.map */
