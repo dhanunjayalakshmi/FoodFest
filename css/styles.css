@@ -155,12 +155,10 @@ body {
       padding: 1em 3em; }
   #foodtype .products {
     padding-bottom: 5em; }
-    #foodtype .products .product-type {
-      margin-right: 1em;
-      border: 3px solid #fff; }
     #foodtype .products .image {
+      border: 3px solid #fff;
       padding: 2em 2em 1em 2em; }
-      #foodtype .products .image:hover {
+      #foodtype .products .image img:hover {
         transform: scaleX(-1);
         transition-duration: 1s; }
       #foodtype .products .image h3 {
@@ -174,60 +172,63 @@ body {
   background-image: url("../images/slider1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
   #order .order-details {
+    padding-left: 8em;
     font-family: "Raleway", sans-serif; }
     #order .order-details img {
       margin-top: 5em; }
     #order .order-details h2, #order .order-details h3, #order .order-details i, #order .order-details p {
       color: #fff; }
     #order .order-details h2 {
-      font-size: 3em; }
+      font-size: 3.5em; }
     #order .order-details h3 {
-      font-size: 2em; }
+      font-size: 3.5em; }
     #order .order-details span {
       font-weight: bold; }
     #order .order-details p {
-      font-size: 1.5em; }
+      font-size: 1.8em; }
     #order .order-details .btn-outline {
-      margin-top: 2em;
+      margin: 1.5em 0;
       font-size: 1.3em;
       color: #fff;
       font-weight: bolder;
-      padding: 0.8em 2em;
+      padding: 0.7em 2em;
       border: 1px solid #fff; }
       #order .order-details .btn-outline:hover {
         color: #fff; }
   #order .order-image {
+    top: 2em;
     text-align: center; }
 
-#menu .desc {
-  padding-top: 4em; }
-  #menu .desc h2 {
-    font-size: 3em;
-    color: #F26522;
-    font-family: "Pacifico", cursive; }
-  #menu .desc i {
-    padding-top: 1em;
-    color: #9db7c5; }
-  #menu .desc p {
-    color: #38515e;
-    padding: 1em 3em; }
-#menu .drinks {
-  margin-top: 4em;
-  background-image: url("../images/heading-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
-  #menu .drinks p {
-    padding: 2em 0; }
-    #menu .drinks p a {
-      text-decoration: none;
-      text-align: center;
-      color: #fff;
+#menu {
+  width: 100vw; }
+  #menu .desc {
+    padding-top: 4em; }
+    #menu .desc h2 {
       font-size: 3em;
-      font-weight: bold; }
+      color: #F26522;
+      font-family: "Pacifico", cursive; }
+    #menu .desc i {
+      padding-top: 1em;
+      color: #9db7c5; }
+    #menu .desc p {
+      color: #38515e;
+      padding: 1em 3em; }
+  #menu .drinks {
+    margin-top: 4em; }
+    #menu .drinks p {
+      padding: 2em 0; }
+      #menu .drinks p a {
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 3em;
+        font-weight: bold; }
+    #menu .drinks img {
+      background-color: #fff;
+      height: 300px;
+      width: 360px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,5 @@
 #menu {
-
+width: 100vw;
 
   .desc {
     padding-top: 4em;
@@ -19,11 +19,11 @@
   }
   .drinks {
     margin-top: 4em;
-    background-image: url('../images/heading-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    // background-image: url('../images/heading-bg.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // width: 100vw;
+    // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
     p{
       padding: 2em 0;
       a {
@@ -33,6 +33,11 @@
         font-size: 3em;
         font-weight: bold;
       }
+    }
+    img {
+      background-color: $primary-color;
+      height: 300px;
+      width: 360px;
     }
   }
 }

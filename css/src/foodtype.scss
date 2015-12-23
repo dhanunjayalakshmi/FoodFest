@@ -26,15 +26,17 @@
   .products {
     padding-bottom: 5em;
     .product-type {
-      margin-right: 1em;
-      border: 3px solid $primary-color;
+
     }
     .image {
+      border: 3px solid $primary-color;
         padding: 2em 2em 1em 2em;
+        img{
         &:hover {
           transform: scaleX(-1);
           transition-duration: 1s;
         }
+      }
     h3 {
       color: $primary-color;
     }
