@@ -96,42 +96,36 @@ body {
       border: 2px solid #ddd; }
   #specials .image-desc .image1 {
     background-image: url("../images/slider1.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image1:hover {
       background-image: url("../images/slider4.jpg");
-      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
       padding: 1em; }
   #specials .image-desc .image2 {
     background-image: url("../images/slider2.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image2:hover {
       background-image: url("../images/slider5.jpg");
-      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
       padding: 1em; }
   #specials .image-desc .image3 {
     background-image: url("../images/slider3.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image3:hover {
       background-image: url("../images/sp-item1.jpg");
-      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
