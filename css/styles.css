@@ -30,16 +30,19 @@ body {
     background-repeat: no-repeat;
     height: 50em;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); }
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;}
   #landing .image2 {
     background-image: url("../images/slider2.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 50em;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); }
   #landing .image3 {
     background-image: url("../images/slider5.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 50em;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); }
@@ -93,36 +96,42 @@ body {
       border: 2px solid #ddd; }
   #specials .image-desc .image1 {
     background-image: url("../images/slider1.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image1:hover {
       background-image: url("../images/slider4.jpg");
+      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
       padding: 1em; }
   #specials .image-desc .image2 {
     background-image: url("../images/slider2.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image2:hover {
       background-image: url("../images/slider5.jpg");
+      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
       padding: 1em; }
   #specials .image-desc .image3 {
     background-image: url("../images/slider3.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
     padding: 1em; }
     #specials .image-desc .image3:hover {
       background-image: url("../images/sp-item1.jpg");
+      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       height: 250px;
@@ -137,6 +146,7 @@ body {
 #foodtype {
   margin-top: 4em;
   background-image: url("../images/our-products-bg.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -170,6 +180,7 @@ body {
   position: relative;
   margin-top: 4em;
   background-image: url("../images/slider1.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -234,6 +245,7 @@ body {
 #extras {
   padding-top: 4em;
   background-image: url("../images/extras-bg.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -309,6 +321,7 @@ body {
 #reviews {
   margin-top: 6em;
   background-image: url("../images/comment-bg.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw; }
